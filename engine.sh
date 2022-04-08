@@ -1,3 +1,11 @@
+## ASBSG - A simple bash site "generator"
+
+# 1 - Page title
+# 2 - Page author
+# 3 - Page description
+# 4 - Full page url
+function write_header {
+	cat <<EOF
 <!doctype html>
 
 <html lang="en">
@@ -5,22 +13,23 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="generator" content="ASBSG (nift4.org)"/>
-    <title>nift4's homepage</title>
-    <meta name="description" content="Welcome to my homepage! I'm Nick, also known as nift4."/>
-    <meta name="author" content="nift4"/>
+    <title>${1}</title>
+    <meta name="description" content="${3}"/>
+    <meta name="author" content="${2}"/>
 
-    <meta property="og:title" content="nift4's homepage"/>
+    <meta property="og:title" content="${1}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://nift4.org"/>
-    <meta property="og:description" content="Welcome to my homepage! I'm Nick, also known as nift4."/>
+    <meta property="og:url" content="${4}"/>
+    <meta property="og:description" content="${3}"/>
   </head>
 
   <body>
     <menu style="background-color: lightgray; width: 100vw; margin: -8px; padding: 4px;">nift4's homepage | <a href="about.html">about</a> | <a href="socials.html">socials</a> | <a href="music.html">playlist</a></menu>
-    <h1>hey 'n welcome!</h1>
-    <p>
-    this is a placeholder text.
-    </p>
+EOF
+}
+
+function write_footer {
+	cat <<EOF
     <footer>
       <hr style="margin: 8px -8px 8px -8px;"/>
       <div style="font-style: italic; text-display: block;">
@@ -29,3 +38,5 @@
     </footer>
   </body>
 </html>
+EOF
+}
