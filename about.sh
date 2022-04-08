@@ -1,5 +1,5 @@
 function write_page {
-	write_header "about me" "nift4" "Some facts about me." "https://nift4.org"
+	write_header "about me" "nift4" "Some facts about me." "https://nift4.org/about.html"
 	cat <<EOF
     <h1>about me</h1>
     <p>hey, it's nick here. you can find some facts about me here:</p>
