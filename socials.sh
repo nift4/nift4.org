@@ -9,7 +9,6 @@ function write_page {
     <ul>
        <li>email: nick [at] [this domain]</li>
        <li><a href="https://t.me/nift4">telegram</a></li>
-       <li><a href="https://twitter.com/_nift4">twitter</a></li>
        <li><a href="https://reddit.com/user/nift4">reddit</a></li>
     </ul>
     where i am not:

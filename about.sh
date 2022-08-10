@@ -9,7 +9,8 @@ function write_page {
 	<li>optimist</li>
 	<li>i am fluid in english and german (my mother-tongue)</li>
 	<li>i spend a lot of time with android development</li>
-	<li>i spend most time with listening to many kinds of music, <a href="music.html">my current picks</a></li>
+	<li>i spend most time with listening to many kinds of music</li>
+    <li>i like to watch japanese animes</li>
 	<li>feel free to <a href="socials.html">contact</a> me</li>
     </ul>
 EOF
