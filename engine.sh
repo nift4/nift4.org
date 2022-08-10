@@ -24,7 +24,7 @@ function write_header {
   </head>
 
   <body>
-    <menu style="background-color: lightgray; width: 100vw; margin: -8px; padding: 4px; margin-bottom: 32px;"><a href="index.html">nift4's homepage</a> | <a href="about.html">about</a> | <a href="socials.html">socials</a></menu>
+    <menu style="background-color: lightgray; width: 100vw; margin: -8px; padding: 4px; margin-bottom: 8px;"><a href="index.html">nift4's homepage</a> | <a href="about.html">about</a> | <a href="socials.html">socials</a></menu>
 EOF
 }
 
